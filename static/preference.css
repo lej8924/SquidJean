@@ -1,0 +1,34 @@
+.taste input,
+.style input {
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    pointer-events: none;
+}
+
+.margin {
+    position: absolute;
+    bottom: 10%;
+}
+.active {
+    z-index: 100;
+}
+table td {
+    width: 100px;
+    height: 30px;
+}
+.walkthrough {
+    height: 800px;
+}
+.walkthrough form {
+    height: 100%;
+}
+.walkthrough-body {
+    height: 100%;
+}
+.screens {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
